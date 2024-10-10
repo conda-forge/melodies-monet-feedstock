@@ -26,7 +26,7 @@ requirements:
     # Core dependencies
     - cartopy
     - matplotlib-base <3.9  # pandas v1 compat
-    - monet
+    - monet >=2.2.11
     - monetio >=0.2.7
     - numpy
     - pandas <2  # some monetio obs readers fail with pandas v2
