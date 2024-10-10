@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation 
   entry_points:
     - melodies-monet = melodies_monet._cli:cli
@@ -26,8 +26,8 @@ requirements:
     # Core dependencies
     - cartopy
     - matplotlib-base <3.9  # pandas v1 compat
-    - monet
-    - monetio
+    - monet >=2.2.11
+    - monetio >=0.2.7
     - numpy
     - pandas <2  # some monetio obs readers fail with pandas v2
     - pyyaml
