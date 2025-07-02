@@ -3,7 +3,7 @@ About melodies-monet-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/melodies-monet-feedstock/blob/main/LICENSE.txt)
 
-Home: https://melodies-monet.readthedocs.io
+Home: https://melodies-monet.readthedocs.io/
 
 Package license: Apache-2.0
 
@@ -11,12 +11,11 @@ Summary: MELODIES MONET
 
 Development: https://github.com/NOAA-CSL/MELODIES-MONET
 
-Documentation: https://melodies-monet.readthedocs.io
+Documentation: https://melodies-monet.readthedocs.io/
 
 MELODIES MONET combines the
 Model EvaLuation using Observations, DIagnostics and Experiments Software (MELODIES) project at NCAR
 with the Model and ObservatioN Evaluation Toolkit (MONET) project at NOAA.
-
 
 Current build status
 ====================
